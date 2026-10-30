@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kit Sílaba a Sílaba | Atividades de alfabetização prontas para imprimir</title>
+<meta name="description" content="65 páginas de atividades de alfabetização prontas para imprimir: famílias silábicas, jogos, recorte e cole, caça-palavras e guia rápido para quem aplica.">
+<meta name="theme-color" content="#FFD43B">
+<meta property="og:title" content="Kit Sílaba a Sílaba">
+<meta property="og:description" content="Nunca mais fique sem atividade de alfabetização. 65 páginas prontas para imprimir.">
+<meta property="og:image" content="img/hero.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- ===================== PIXEL DO META =====================
+     Pixel "Kit Sílaba a Sílaba". -->
+<script>
+  window.PIXEL_ID = "1778281523454455";
+  if (window.PIXEL_ID && window.PIXEL_ID !== "SEU_PIXEL_ID") {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', window.PIXEL_ID);
+    fbq('track', 'PageView');
+  }
+  // função segura: só dispara se o pixel existir
+  window.px = function(ev, data){ try { if (window.fbq) fbq('track', ev, data || {}); } catch(e){} };
+</script>
+
+<style>
+/* ===================== BASE ===================== */
+:root{
+  --amarelo:#FFD43B; --amarelo-claro:#FFF3B8; --verde:#27AE60; --verde-esc:#1E8449;
+  --vermelho:#E8505B; --azul:#2F80ED; --texto:#1D1D1D; --cinza:#5b5b5b; --fundo:#FFFFFF; --borda:#E9E9E9;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--texto);background:#F3F3F3;font-size:16px;line-height:1.55;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+.pagina{max-width:480px;margin:0 auto;background:var(--fundo);min-height:100vh;overflow:hidden;box-shadow:0 0 30px rgba(0,0,0,.06)}
+section{padding:36px 20px}
+h1{font-size:30px;line-height:1.18;font-weight:800;letter-spacing:-.3px}
+h2{font-size:26px;line-height:1.2;font-weight:800;text-align:center;margin-bottom:18px}
+p{margin-bottom:12px}
+.centro{text-align:center}
+.marca{background:linear-gradient(transparent 55%, var(--amarelo) 55%);padding:0 2px}
+
+/* ===================== BOTÕES ===================== */
+.btn{display:flex;align-items:center;justify-content:center;width:100%;min-height:58px;padding:14px 18px;border:0;border-radius:14px;
+  font-family:inherit;font-size:17px;font-weight:800;text-transform:uppercase;letter-spacing:.3px;text-align:center;line-height:1.2;
+  text-decoration:none;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .08s, box-shadow .08s}
+.btn-verde{background:var(--verde);color:#fff;box-shadow:0 5px 0 var(--verde-esc);animation:pulso 2.8s ease-in-out infinite}
+.btn-verde:active{transform:translateY(4px);box-shadow:0 1px 0 var(--verde-esc)}
+.btn-cinza{background:#3a3a3a;color:#fff;box-shadow:0 5px 0 #1f1f1f;font-size:15px}
+.btn-cinza:active{transform:translateY(4px);box-shadow:0 1px 0 #1f1f1f}
+@keyframes pulso{0%,82%,100%{transform:scale(1)}88%{transform:scale(1.03)}94%{transform:scale(.995)}}
+.selos{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px;font-size:13px;color:var(--cinza);margin-top:12px;font-weight:500}
+.selos span{white-space:nowrap}
+
+/* ===================== TOPO ===================== */
+.faixa{background:var(--amarelo);text-align:center;font-size:13.5px;font-weight:700;padding:8px 12px}
+.logo{display:flex;align-items:center;gap:6px}
+.logo i{font-style:normal;width:34px;height:34px;border-radius:8px;color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 0 rgba(0,0,0,.15)}
+.logo b{font-size:19px;margin-left:6px;font-weight:800}
+.hero{padding-top:22px;text-align:center}
+.hero .logo{justify-content:center;margin-bottom:22px}
+.hero .sub{font-size:17px;color:#3c3c3c;margin:14px 0 18px}
+.hero .img-hero{border-radius:18px;margin-bottom:20px}
+
+/* ===================== DOR ===================== */
+.dor{background:#FAFAFA}
+.lista-dor{list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.lista-dor li{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--borda);border-radius:14px;padding:14px;font-size:16px}
+.lista-dor li span{font-size:22px;line-height:1}
+.alivio{background:var(--amarelo);border-radius:14px;padding:16px 18px;font-weight:700;font-size:17px;text-align:center;margin-bottom:22px}
+
+/* ===================== VEJA POR DENTRO ===================== */
+.dentro figure{margin:0 0 22px;text-align:center}
+.dentro figure img{border-radius:12px;border:1px solid var(--borda);box-shadow:0 10px 24px rgba(0,0,0,.10)}
+.dentro figcaption{font-weight:700;margin-top:10px;font-size:15px}
+.frase-prova{background:#E8F8EE;border:1.5px solid #22A55A;border-radius:14px;padding:14px;text-align:center;font-weight:700}
+
+/* ===================== CARROSSEL ===================== */
+.carrossel{position:relative;margin:0 -20px;overflow:hidden;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.trilho{display:flex;gap:12px;padding:6px 0 10px;will-change:transform}
+.cartao{flex:0 0 82%;background:#fff;border:1px solid var(--borda);border-radius:18px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.cartao img{width:100%;aspect-ratio:800/620;object-fit:cover;pointer-events:none}
+.cartao .info{padding:14px 16px 18px}
+.etq{display:inline-block;font-size:12px;font-weight:800;border-radius:30px;padding:3px 12px;margin-bottom:8px;letter-spacing:.5px}
+.etq.principal{background:#E6F0FF;color:var(--azul)}
+.etq.bonus{background:#F1EAFE;color:#7B3FD0}
+.cartao h3{font-size:18px;line-height:1.25;margin-bottom:4px}
+.cartao p{font-size:14.5px;color:#444;margin:0}
+.incluso{color:var(--verde);font-weight:800;font-size:14px;margin-top:6px}
+.seta{position:absolute;top:38%;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.95);box-shadow:0 4px 12px rgba(0,0,0,.18);
+  font-size:24px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;color:var(--texto)}
+.seta.esq{left:8px}.seta.dir{right:8px}
+.bolinhas{display:flex;justify-content:center;gap:7px;margin-top:6px}
+.bolinhas button{width:9px;height:9px;border-radius:50%;border:0;background:#D0D0D0;padding:0;cursor:pointer;transition:all .2s}
+.bolinhas button.ativa{background:var(--verde);width:22px;border-radius:6px}
+.contagem{text-align:center;font-size:13.5px;color:var(--cinza);margin:8px 0 18px;font-weight:500}
+
+/* ===================== COMO FUNCIONA / PARA QUEM ===================== */
+.passos{display:flex;flex-direction:column;gap:12px}
+.passo{display:flex;align-items:center;gap:14px;border:1px solid var(--borda);border-radius:14px;padding:14px}
+.passo > b{flex:none;width:40px;height:40px;border-radius:50%;background:var(--verde);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px}
+.quem{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
+.quem div{border:1px solid var(--borda);border-radius:14px;padding:14px 10px;text-align:center;font-weight:600;font-size:14.5px;line-height:1.3}
+.quem div span{display:block;font-size:30px;margin-bottom:6px}
+.quem .largo{grid-column:1/3;background:#FFF9E0;border-color:#F5DE84}
+.quem .largo small{display:block;font-weight:500;color:#555;margin-top:4px;font-size:13.5px}
+
+/* ===================== OFERTA ===================== */
+#oferta{scroll-margin-top:12px;background:repeating-linear-gradient(135deg,#FFD43B 0 22px,#FFE372 22px 44px);padding:36px 16px}
+.card-oferta{background:#fff;border:2.5px solid #1d1d1d;border-radius:22px;padding:24px 18px 20px;text-align:center;position:relative}
+.card-oferta+.card-oferta{margin-top:18px}
+.card-oferta.destaque{border:4px solid var(--verde);box-shadow:0 14px 30px rgba(0,0,0,.18);transform:scale(1.0)}
+.card-oferta.brilho{animation:brilho 1.1s ease-out}
+@keyframes brilho{0%{box-shadow:0 0 0 0 rgba(39,174,96,.7)}100%{box-shadow:0 0 0 22px rgba(39,174,96,0)}}
+.pilula{display:inline-block;background:#1d1d1d;color:#fff;font-size:11.5px;font-weight:800;border-radius:30px;padding:6px 14px;letter-spacing:.4px;margin-bottom:12px}
+.card-oferta h3{font-size:28px;font-weight:800;margin-bottom:12px}
+.lista-ok{list-style:none;text-align:left;margin:0 auto 14px;display:flex;flex-direction:column;gap:7px;font-size:15.5px}
+.lista-ok li{display:flex;gap:9px}
+.lista-ok li::before{content:"✓";color:var(--verde);font-weight:800}
+.paginas{font-weight:700;color:var(--azul);margin-bottom:6px}
+.de{font-size:13.5px;color:var(--cinza)}
+.preco{font-size:58px;font-weight:800;line-height:1;margin:4px 0}
+.preco sup{font-size:22px;vertical-align:28px;margin-right:4px}
+.preco.menor{font-size:42px}.preco.menor sup{vertical-align:18px;font-size:18px}
+.forma{font-size:13.5px;color:var(--cinza);margin-bottom:14px}
+.caixa-amarela{background:var(--amarelo-claro);border-radius:12px;padding:12px;font-weight:700;font-size:15px;margin-bottom:16px}
+.caixa-pix{background:#E8F8EE;border:1.5px solid #22A55A;border-radius:12px;padding:11px 12px;font-size:14.5px;font-weight:600;margin-top:14px}
+.garantia{display:flex;gap:14px;align-items:center;background:#FFF7DB;border:1.5px solid #FFC72C;border-radius:16px;padding:16px;margin-top:18px;text-align:left;font-size:14.5px}
+.garantia .sel{flex:none;width:66px;height:66px;border-radius:50%;background:#1d1d1d;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;line-height:1}
+.garantia .sel b{font-size:24px}.garantia .sel small{font-size:11px;margin-top:2px}
+
+/* ===================== POP-UP ===================== */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:100;padding:12px}
+.modal.aberto{display:flex}
+.caixa-modal{background:#fff;border-radius:22px;width:92%;max-width:440px;max-height:92vh;overflow-y:auto;padding:24px 18px 18px;position:relative;
+  animation:sobe .35s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes sobe{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+.fechar{position:absolute;top:8px;right:10px;width:38px;height:38px;border-radius:50%;border:0;background:#F1F1F1;font-size:22px;cursor:pointer;line-height:1}
+.caixa-modal h3{font-size:22px;line-height:1.2;text-align:center;margin:6px 26px 14px;font-weight:800}
+.compara{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.compara div{border-radius:12px;padding:10px;text-align:center;font-size:14px;line-height:1.3}
+.compara .b{background:#F3F3F3;color:#666}
+.compara .c{background:#E8F8EE;border:2px solid var(--verde);font-weight:700}
+.compara b{display:block;font-size:20px}
+.caixa-modal .lista-ok{font-size:14.5px;gap:5px}
+.caixa-modal .frase{text-align:center;font-weight:700;margin:6px 0 14px}
+.link-nao{display:block;text-align:center;margin-top:14px;font-size:14px;color:#777;text-decoration:underline}
+.texto-legal{font-size:14px;line-height:1.6}
+.texto-legal h3{margin-left:0;text-align:left}
+.texto-legal p{margin-bottom:10px}
+
+/* ===================== FAQ ===================== */
+.faq details{border:1px solid var(--borda);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:16px 46px 16px 16px;font-weight:700;position:relative;font-size:15.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:600;color:var(--verde)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{padding:0 16px 16px;margin:0;color:#444;font-size:15px}
+
+/* ===================== DEPOIMENTOS (oculto) ===================== */
+.depoimentos{display:none}
+
+/* ===================== RODAPÉ ===================== */
+footer{background:#1d1d1d;color:#cfcfcf;padding:30px 20px 110px;text-align:center;font-size:13px}
+footer .logo{justify-content:center;margin-bottom:12px}footer .logo b{color:#fff}
+footer a{color:#fff}
+footer .links{display:flex;justify-content:center;gap:16px;margin:10px 0}
+footer .links button{background:none;border:0;color:#fff;text-decoration:underline;font:inherit;cursor:pointer}
+
+/* ===================== BOTÃO FIXO ===================== */
+.fixo{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);
+  box-shadow:0 -6px 18px rgba(0,0,0,.12);transform:translateY(120%);transition:transform .3s}
+.fixo.visivel{transform:none}
+.fixo .btn{max-width:452px;margin:0 auto;min-height:54px;font-size:16px}
+@media (min-width:700px){.fixo{display:none}}
+</style>
+</head>
+<body>
+<div class="pagina">
+
+  <!-- 4.1 FAIXA -->
+  <div class="faixa">📄 Material em PDF · Receba na hora no seu e-mail</div>
+
+  <!-- 4.2 HERO -->
+  <section class="hero" id="topo">
+    <div class="logo"><i style="background:var(--vermelho)">SÍ</i><i style="background:var(--azul)">LA</i><i style="background:var(--verde)">BA</i><b>Sílaba a Sílaba</b></div>
+    <h1>Nunca mais fique sem <span class="marca">atividade de alfabetização</span></h1>
+    <p class="sub">65 páginas prontas pra você imprimir e aplicar <b>hoje mesmo</b>, com guia rápido para quem aplica.</p>
+    <img class="img-hero" src="img/hero.webp" width="1000" height="800" alt="Páginas do Kit Sílaba a Sílaba impressas: família do B, caminho das sílabas e recorte e cole" fetchpriority="high">
+    <a class="btn btn-verde" href="#oferta">QUERO O KIT AGORA</a>
+    <div class="selos"><span>✓ Acesso imediato</span><span>✓ Garantia de 7 dias</span><span>✓ Pagamento seguro</span></div>
+  </section>
+
+  <!-- 4.3 DOR + ALÍVIO -->
+  <section class="dor">
+    <h2>Você conhece essa cena?</h2>
+    <ul class="lista-dor">
+      <li><span>😟</span>A criança conhece as letras, mas trava na hora de juntar as sílabas.</li>
+      <li><span>🌙</span>Você passa a noite procurando atividade na internet e nada fica do jeito que precisa.</li>
+      <li><span>📉</span>Metade da turma avança e a outra metade fica para trás.</li>
+    </ul>
+    <div class="alivio">Não é falta de esforço seu. Falta o material certo, na ordem certa.</div>
+    <a class="btn btn-verde" href="#oferta">QUERO AS ATIVIDADES PRONTAS</a>
+  </section>
+
+  <!-- 4.4 VEJA POR DENTRO -->
+  <section class="dentro">
+    <h2>Olha como são as páginas</h2>
+    <figure><img src="img/pagina1.webp" width="800" height="1131" loading="lazy" alt="Página Família do B com trem das sílabas, completar e pintar"><figcaption>🚂 Trem da família silábica</figcaption></figure>
+    <figure><img src="img/pagina2.webp" width="800" height="1131" loading="lazy" alt="Página Caminho do B, labirinto de sílabas"><figcaption>🐭 Caminho das sílabas</figcaption></figure>
+    <figure><img src="img/pagina3.webp" width="800" height="1131" loading="lazy" alt="Página Recorte e cole as sílabas"><figcaption>✂️ Recorte e cole</figcaption></figure>
+    <div class="frase-prova">O que você vê aqui é exatamente o que você recebe.</div>
+  </section>
+
+  <!-- 4.5 CARROSSEL -->
+  <section class="kit" style="padding-top:10px">
+    <h2>Tudo o que vem no kit</h2>
+    <div class="carrossel" id="carrossel" aria-roledescription="carrossel">
+      <div class="trilho" id="trilho">
+        <article class="cartao"><img src="img/teoria.webp" width="800" height="620" loading="lazy" alt="Páginas da teoria rápida"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Teoria Rápida</h3><p>4 páginas com o essencial para quem aplica: sílabas, famílias e as fases da escrita.</p></div></article>
+        <article class="cartao"><img src="img/familia.webp" width="800" height="620" loading="lazy" alt="Páginas das famílias silábicas"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>17 Famílias Silábicas</h3><p>De B a Z, 2 páginas por família: trem, completar, pintar, ligar e ditado.</p></div></article>
+        <article class="cartao"><img src="img/caminho.webp" width="800" height="620" loading="lazy" alt="Páginas do caminho das sílabas"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Caminho das Sílabas</h3><p>Labirintos para pintar o caminho na ordem certa.</p></div></article>
+        <article class="cartao"><img src="img/conte.webp" width="800" height="620" loading="lazy" alt="Páginas de conte e ligue as sílabas"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Conte, Ligue e Junte</h3><p>Bate palmas, liga a sílaba inicial e junta as sílabas.</p></div></article>
+        <article class="cartao"><img src="img/recorte.webp" width="800" height="620" loading="lazy" alt="Páginas de recorte e cole e dominó"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Recorte e Cole + Dominó + Dado</h3><p>Atividades de recortar e montar com as mãos.</p></div></article>
+        <article class="cartao"><img src="img/caca.webp" width="800" height="620" loading="lazy" alt="Páginas de caça-palavras e leia e desenhe"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Caça-Palavras e Leia e Desenhe</h3><p>Leitura com diversão.</p></div></article>
+        <article class="cartao"><img src="img/fichas.webp" width="800" height="620" loading="lazy" alt="Páginas das fichas silábicas"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>90 Fichas Silábicas</h3><p>Para recortar e montar palavras, sortear e brincar de ditado.</p></div></article>
+        <article class="cartao"><img src="img/professora.webp" width="800" height="620" loading="lazy" alt="Guia de ditado e certificado"><div class="info"><span class="etq principal">PRINCIPAL</span><h3>Para a professora</h3><p>Guia de ditado, tabela de acompanhamento da turma e certificado de leitor.</p></div></article>
+        <article class="cartao"><img src="img/bingo.webp" width="800" height="620" loading="lazy" alt="Cartelas do Bingo das Sílabas"><div class="info"><span class="etq bonus">BÔNUS 1</span><h3>Bingo das Sílabas</h3><p>6 cartelas diferentes + 40 fichas de sorteio.</p><div class="incluso">✓ incluso</div></div></article>
+      </div>
+      <button class="seta esq" id="setaEsq" aria-label="Anterior">‹</button>
+      <button class="seta dir" id="setaDir" aria-label="Próximo">›</button>
+    </div>
+    <div class="bolinhas" id="bolinhas"></div>
+    <div class="contagem" id="contagem">1 de 9 · arraste para o lado →</div>
+    <a class="btn btn-verde" href="#oferta">QUERO TUDO POR R$ 27,90</a>
+  </section>
+
+  <!-- 4.6 COMO FUNCIONA -->
+  <section style="background:#FAFAFA">
+    <h2>Como funciona</h2>
+    <div class="passos">
+      <div class="passo"><b>1</b><div>Você paga no <b>Pix</b> (leva segundos) ou no cartão.</div></div>
+      <div class="passo"><b>2</b><div>Recebe o acesso <b>na hora</b> no seu e-mail.</div></div>
+      <div class="passo"><b>3</b><div>Imprime e aplica <b>no mesmo dia</b>.</div></div>
+    </div>
+  </section>
+
+  <!-- 4.7 PARA QUEM É -->
+  <section>
+    <h2>Para quem é</h2>
+    <div class="quem">
+      <div><span>👩‍🏫</span>Professoras de 1º e 2º ano</div>
+      <div><span>🧸</span>Educação Infantil (pré II)</div>
+      <div><span>📚</span>Reforço escolar e psicopedagogia</div>
+      <div><span>👩‍👧</span>Mães que alfabetizam em casa</div>
+      <div class="largo">🙋‍♀️ Não é professora?<small>O guia rápido explica tudo, passo a passo.</small></div>
+    </div>
+    <a class="btn btn-verde" href="#oferta">QUERO O KIT SÍLABA A SÍLABA</a>
+  </section>
+
+  <!-- 4.8 DEPOIMENTOS — ativar quando houver depoimentos reais (trocar display:none no CSS .depoimentos) -->
+  <section class="depoimentos">
+    <h2>O que dizem as professoras</h2>
+    <img src="img/depo1.webp" loading="lazy" alt="Depoimento 1">
+    <img src="img/depo2.webp" loading="lazy" alt="Depoimento 2">
+    <img src="img/depo3.webp" loading="lazy" alt="Depoimento 3">
+  </section>
+
+  <!-- 4.9 OFERTA -->
+  <section id="oferta">
+    <!-- CARTÃO A: COMPLETO -->
+    <div class="card-oferta destaque" id="cardCompleto">
+      <span class="pilula">MAIS ESCOLHIDO · ACESSO IMEDIATO E VITALÍCIO</span>
+      <h3>Kit Completo</h3>
+      <ul class="lista-ok">
+        <li>Teoria rápida para quem aplica</li>
+        <li>Vogais + 17 famílias silábicas</li>
+        <li>Caminho das sílabas, Conte, Ligue e Junte</li>
+        <li>Recorte e cole, Dominó e Dado das sílabas</li>
+        <li>Caça-palavras e Leia e desenhe</li>
+        <li>90 fichas silábicas para recortar</li>
+        <li>Guia de ditado, acompanhamento da turma e certificado</li>
+        <li><b>BÔNUS: Bingo das Sílabas</b></li>
+      </ul>
+      <div class="paginas">65 páginas + bônus</div>
+      <div class="de">pagamento único de</div>
+      <div class="preco"><sup>R$</sup>27,90</div>
+      <div class="forma">no Pix (acesso na hora) ou no cartão</div>
+      <div class="caixa-amarela">Menos de R$ 0,45 por atividade, e você usa o ano inteiro.</div>
+      <!-- link de checkout do Completo -->
+      <a class="btn btn-verde checkout" data-valor="27.90" href="https://pay.kiwify.com.br/qIe3B62">QUERO O COMPLETO POR R$ 27,90</a>
+      <div class="caixa-pix">💚 Pague no Pix e receba o acesso na hora no seu e-mail.</div>
+      <div class="selos"><span>✓ Acesso imediato</span><span>✓ Garantia de 7 dias</span><span>✓ Pagamento seguro</span></div>
+    </div>
+
+    <!-- CARTÃO B: BÁSICO -->
+    <div class="card-oferta">
+      <h3>Kit Básico</h3>
+      <ul class="lista-ok" style="max-width:260px">
+        <li>Teoria rápida</li>
+        <li>Vogais</li>
+        <li>17 famílias silábicas</li>
+      </ul>
+      <div class="paginas">43 páginas</div>
+      <div class="preco menor"><sup>R$</sup>19,90</div>
+      <div class="forma">no Pix (acesso na hora) ou no cartão</div>
+      <button class="btn btn-cinza" id="abrirUpgrade" type="button">QUERO O BÁSICO POR R$ 19,90</button>
+    </div>
+
+    <div class="garantia">
+      <div class="sel"><b>7</b><small>DIAS</small></div>
+      <div>🛡️ <b>Risco zero:</b> baixe, teste as atividades e, se não gostar, peça o reembolso em até 7 dias. Devolvemos 100% do seu dinheiro.</div>
+    </div>
+  </section>
+
+  <!-- 4.11 FAQ -->
+  <section class="faq">
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Como recebo o material?</summary><p>Na hora, no e-mail usado na compra. Pagando no Pix, o acesso chega em segundos.</p></details>
+    <details><summary>Posso imprimir mais de uma vez?</summary><p>Sim, quantas vezes quiser, para sua turma ou seu filho.</p></details>
+    <details><summary>Não sou professora. Consigo usar?</summary><p>Sim. O kit traz uma teoria rápida e um guia de ditado explicando tudo.</p></details>
+    <details><summary>Serve para qual idade?</summary><p>Educação Infantil (pré II), 1º e 2º ano e reforço.</p></details>
+    <details><summary>Preciso imprimir colorido?</summary><p>Não. Fica bonito colorido, mas funciona em preto e branco.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia com devolução de 100%.</p></details>
+    <a class="btn btn-verde" href="#oferta" style="margin-top:14px">QUERO O KIT AGORA</a>
+  </section>
+
+  <!-- 4.12 RODAPÉ -->
+  <footer>
+    <div class="logo"><i style="background:var(--vermelho)">SÍ</i><i style="background:var(--azul)">LA</i><i style="background:var(--verde)">BA</i><b>Sílaba a Sílaba</b></div>
+    <div>© <span id="ano"></span> Sílaba a Sílaba · Contato: <a href="mailto:contatosilabaasilaba@outlook.com">contatosilabaasilaba@outlook.com</a></div>
+    <div class="links"><button type="button" data-abrir="modalPrivacidade">Política de Privacidade</button><button type="button" data-abrir="modalTermos">Termos de Uso</button></div>
+    <div>Este site não é afiliado ao Facebook ou à Meta.</div>
+  </footer>
+</div>
+
+<!-- 4.13 BOTÃO FIXO -->
+<div class="fixo" id="fixo"><a class="btn btn-verde" href="#oferta">VER AS OPÇÕES DO KIT</a></div>
+
+<!-- 4.10 POP-UP DE UPGRADE -->
+<div class="modal" id="modalUpgrade" role="dialog" aria-modal="true" aria-labelledby="tituloUp">
+  <div class="caixa-modal">
+    <button class="fechar" type="button" aria-label="Fechar">×</button>
+    <h3 id="tituloUp">Espere! Por só R$ 8 a mais você leva o kit <span style="color:var(--verde)">COMPLETO</span></h3>
+    <div class="compara">
+      <div class="b">Básico<b>43 páginas</b></div>
+      <div class="c">Completo<b>65 páginas</b>+ Bingo</div>
+    </div>
+    <ul class="lista-ok">
+      <li>Caminho das sílabas</li><li>Recorte e cole</li><li>Dominó e dado das sílabas</li><li>Caça-palavras</li>
+      <li>90 fichas silábicas</li><li>Certificado de leitor</li><li><b>Bônus: Bingo das Sílabas</b></li>
+    </ul>
+    <p class="frase">São 22 páginas a mais + o Bingo por só R$ 8.</p>
+    <!-- links de checkout da Kiwify -->
+    <a class="btn btn-verde checkout" data-valor="27.90" href="https://pay.kiwify.com.br/qIe3B62">SIM, QUERO O COMPLETO POR R$ 27,90</a>
+    <a class="link-nao checkout" data-valor="19.90" href="https://pay.kiwify.com.br/OxmBcZI">Não, quero só o básico por R$ 19,90</a>
+  </div>
+</div>
+
+<!-- MODAIS LEGAIS -->
+<div class="modal" id="modalPrivacidade" role="dialog" aria-modal="true">
+  <div class="caixa-modal texto-legal">
+    <button class="fechar" type="button" aria-label="Fechar">×</button>
+    <h3>Política de Privacidade</h3>
+    <p>Este site não coleta dados pessoais diretamente. Os dados de compra (nome, e-mail e pagamento) são informados e processados pela plataforma de pagamento, conforme a política de privacidade dela.</p>
+    <p>Usamos cookies e o Pixel do Meta para medir visitas e melhorar nossos anúncios. Você pode bloquear cookies nas configurações do seu navegador.</p>
+    <p>Dúvidas: contatosilabaasilaba@outlook.com.</p>
+  </div>
+</div>
+<div class="modal" id="modalTermos" role="dialog" aria-modal="true">
+  <div class="caixa-modal texto-legal">
+    <button class="fechar" type="button" aria-label="Fechar">×</button>
+    <h3>Termos de Uso</h3>
+    <p>O Kit Sílaba a Sílaba é um material digital em PDF, enviado por e-mail após a confirmação do pagamento.</p>
+    <p>O uso é pessoal e em sala de aula (sua turma, reforço e atendimentos). É proibido revender, compartilhar o arquivo ou distribuir o material.</p>
+    <p>Você tem 7 dias de garantia a partir da compra. Para pedir reembolso, use a plataforma de pagamento ou escreva para contatosilabaasilaba@outlook.com.</p>
+  </div>
+</div>
+
+<script>
+/* ===================== ANO NO RODAPÉ ===================== */
+document.getElementById('ano').textContent = new Date().getFullYear();
+
+/* ===================== CARROSSEL COM LOOP INFINITO ===================== */
+(function(){
+  const carrossel = document.getElementById('carrossel');
+  const trilho = document.getElementById('trilho');
+  const originais = Array.from(trilho.children);
+  const total = originais.length;
+  // clones: último no início e primeiro no fim
+  const cloneIni = originais[total-1].cloneNode(true);
+  const cloneFim = originais[0].cloneNode(true);
+  trilho.insertBefore(cloneIni, originais[0]);
+  trilho.appendChild(cloneFim);
+
+  const bolinhas = document.getElementById('bolinhas');
+  const contagem = document.getElementById('contagem');
+  for (let i=0;i<total;i++){
+    const b=document.createElement('button');b.setAttribute('aria-label','Ir para o cartão '+(i+1));
+    b.addEventListener('click',()=>{ir(i+1);pausar();});bolinhas.appendChild(b);
+  }
+
+  let pos = 1;              // índice no trilho (1 = primeiro original)
+  let animando = false;
+  function passo(){ const c=trilho.children[0]; return c.getBoundingClientRect().width + 12; }
+  function deslocBase(){ return (carrossel.clientWidth - trilho.children[0].getBoundingClientRect().width)/2; }
+  function aplicar(anim, extra){
+    trilho.style.transition = anim ? 'transform .45s cubic-bezier(.25,.8,.25,1)' : 'none';
+    trilho.style.transform = 'translate3d(' + (deslocBase() - pos*passo() + (extra||0)) + 'px,0,0)';
+  }
+  function atualizarIndicadores(){
+    const real = ((pos-1)%total+total)%total;
+    Array.from(bolinhas.children).forEach((b,i)=>b.classList.toggle('ativa', i===real));
+    contagem.textContent = (real+1) + ' de ' + total + ' · arraste para o lado →';
+  }
+  function ir(n){ pos=n; animando=true; aplicar(true); atualizarIndicadores(); }
+  trilho.addEventListener('transitionend', ()=>{
+    animando=false;
+    if (pos===0){ pos=total; aplicar(false); }
+    if (pos===total+1){ pos=1; aplicar(false); }
+  });
+
+  // setas
+  document.getElementById('setaEsq').addEventListener('click',()=>{ if(!animando){ir(pos-1);} pausar(); });
+  document.getElementById('setaDir').addEventListener('click',()=>{ if(!animando){ir(pos+1);} pausar(); });
+
+  // arrastar (dedo e mouse)
+  let iniX=0, iniY=0, dx=0, arrastando=false, decidiu=false, horizontal=false;
+  carrossel.addEventListener('pointerdown', e=>{
+    if (e.target.closest('.seta')) return;
+    if (animando){ return; }
+    arrastando=true; decidiu=false; horizontal=false; iniX=e.clientX; iniY=e.clientY; dx=0; pausar();
+  });
+  window.addEventListener('pointermove', e=>{
+    if(!arrastando) return;
+    const mx=e.clientX-iniX, my=e.clientY-iniY;
+    if(!decidiu && (Math.abs(mx)>6 || Math.abs(my)>6)){ decidiu=true; horizontal=Math.abs(mx)>Math.abs(my); }
+    if(decidiu && !horizontal){ arrastando=false; aplicar(true); return; }
+    if(horizontal){ dx=mx; aplicar(false, dx); }
+  });
+  function soltar(){
+    if(!arrastando) return; arrastando=false;
+    if (Math.abs(dx) > passo()*0.18){ ir(dx<0 ? pos+1 : pos-1); } else { aplicar(true); }
+  }
+  window.addEventListener('pointerup', soltar);
+  window.addEventListener('pointercancel', soltar);
+  carrossel.addEventListener('dragstart', e=>e.preventDefault());
+
+  // avanço automático: 3,5 s; pausa ao tocar e retoma após 6 s
+  let timer=null, retomar=null;
+  function iniciar(){ clearInterval(timer); timer=setInterval(()=>{ if(!animando && !arrastando) ir(pos+1); }, 3500); }
+  function pausar(){ clearInterval(timer); clearTimeout(retomar); retomar=setTimeout(iniciar, 6000); }
+
+  window.addEventListener('resize', ()=>aplicar(false));
+  aplicar(false); atualizarIndicadores();
+  // só começa a girar quando o carrossel aparece na tela
+  new IntersectionObserver((ent,obs)=>{ if(ent[0].isIntersecting){ iniciar(); obs.disconnect(); } },{threshold:.3}).observe(carrossel);
+})();
+
+/* ===================== MODAIS (upgrade e legais) ===================== */
+function abrirModal(id){ document.getElementById(id).classList.add('aberto'); document.body.style.overflow='hidden'; }
+function fecharModal(m){ m.classList.remove('aberto'); document.body.style.overflow=''; }
+document.getElementById('abrirUpgrade').addEventListener('click', ()=>abrirModal('modalUpgrade'));
+document.querySelectorAll('[data-abrir]').forEach(b=>b.addEventListener('click',()=>abrirModal(b.dataset.abrir)));
+document.querySelectorAll('.modal').forEach(m=>{
+  m.addEventListener('click', e=>{ if(e.target===m || e.target.classList.contains('fechar')) fecharModal(m); });
+});
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') document.querySelectorAll('.modal.aberto').forEach(fecharModal); });
+
+/* ===================== PIXEL: InitiateCheckout nos botões de compra ===================== */
+document.querySelectorAll('a.checkout').forEach(a=>a.addEventListener('click', ()=>{
+  px('InitiateCheckout', {value: parseFloat(a.dataset.valor), currency: 'BRL', content_name: 'Kit Sílaba a Sílaba'});
+}));
+
+/* ===================== OFERTA: destaque ao chegar + ViewContent ===================== */
+const oferta = document.getElementById('oferta');
+const cardCompleto = document.getElementById('cardCompleto');
+document.querySelectorAll('a[href="#oferta"]').forEach(a=>a.addEventListener('click', ()=>{
+  setTimeout(()=>{ cardCompleto.classList.remove('brilho'); void cardCompleto.offsetWidth; cardCompleto.classList.add('brilho'); }, 650);
+}));
+let viuOferta=false;
+
+/* ===================== BOTÃO FIXO (aparece após o topo, some na oferta) ===================== */
+const fixo = document.getElementById('fixo');
+const topo = document.getElementById('topo');
+let passouTopo=false, ofertaNaTela=false;
+function atualizarFixo(){ fixo.classList.toggle('visivel', passouTopo && !ofertaNaTela && !document.querySelector('.modal.aberto')); }
+new IntersectionObserver(ent=>{ passouTopo = !ent[0].isIntersecting; atualizarFixo(); },{threshold:0}).observe(topo);
+new IntersectionObserver(ent=>{
+  ofertaNaTela = ent[0].isIntersecting; atualizarFixo();
+  if (ofertaNaTela && !viuOferta){ viuOferta=true; px('ViewContent',{value:27.90,currency:'BRL',content_name:'Kit Sílaba a Sílaba'}); }
+},{threshold:.15}).observe(oferta);
+</script>
+</body>
+</html>
