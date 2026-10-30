@@ -164,7 +164,16 @@ p{margin-bottom:12px}
 .faq details p{padding:0 16px 16px;margin:0;color:#444;font-size:15px}
 
 /* ===================== DEPOIMENTOS (oculto) ===================== */
-.depoimentos{display:none}
+.depoimentos{background:#FAFAFA}
+.depo{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:18px 16px 16px;margin-bottom:14px;box-shadow:0 4px 12px rgba(0,0,0,.04)}
+.depo .txt{font-size:15.5px;line-height:1.6;color:#333;margin-bottom:14px}
+.depo .txt::before{content:"“";font-size:40px;line-height:0;vertical-align:-14px;color:var(--amarelo);font-weight:800;margin-right:4px}
+.depo .autor{display:flex;align-items:center;gap:12px}
+.depo .av{object-fit:cover;flex:none;width:46px;height:46px;border-radius:50%;color:#fff;font-weight:800;font-size:20px;display:flex;align-items:center;justify-content:center}
+.depo .nm{font-weight:700;font-size:15px;line-height:1.25}
+.depo .nm small{display:block;font-weight:500;color:var(--cinza);font-size:13px}
+.depo .est{color:#F2B705;font-size:14px;letter-spacing:1px;margin-top:2px}
+.depo-sub{text-align:center;color:var(--cinza);font-size:14px;margin:-8px 0 18px}
 
 /* ===================== RODAPÉ ===================== */
 footer{background:#1d1d1d;color:#cfcfcf;padding:30px 20px 110px;text-align:center;font-size:13px}
@@ -264,12 +273,17 @@ footer .links button{background:none;border:0;color:#fff;text-decoration:underli
     <a class="btn btn-verde" href="#oferta">QUERO O KIT SÍLABA A SÍLABA</a>
   </section>
 
-  <!-- 4.8 DEPOIMENTOS — ativar quando houver depoimentos reais (trocar display:none no CSS .depoimentos) -->
+  <!-- 4.8 DEPOIMENTOS (relatos reais; fotos autorizadas) -->
   <section class="depoimentos">
-    <h2>O que dizem as professoras</h2>
-    <img src="img/depo1.webp" loading="lazy" alt="Depoimento 1">
-    <img src="img/depo2.webp" loading="lazy" alt="Depoimento 2">
-    <img src="img/depo3.webp" loading="lazy" alt="Depoimento 3">
+    <h2>O que dizem professoras e mães</h2>
+    <p class="depo-sub">Relatos de quem já está usando o kit</p>
+    <div class="depo"><p class="txt">Usei algumas atividades essa semana com meus alunos e gostei bastante. Tem umas crianças que ainda têm muita dificuldade pra juntar as sílabas, então esse material veio bem a calhar. Já imprimi mais algumas pra trabalhar semana que vem.</p><div class="autor"><img class="av" src="img/depo-joana.webp" width="46" height="46" loading="lazy" alt="Foto de Joana"><div class="nm">Joana<small>Professora do 1º ano</small><div class="est">★★★★★</div></div></div></div>
+    <div class="depo"><p class="txt">Meu filho tem 6 anos e estava com bastante dificuldade pra juntar as letrinhas. Eu tentava ensinar em casa, mas ele ficava irritado e logo queria parar. Comecei a fazer algumas atividades com ele depois da escola e percebi que agora ele participa com mais vontade. Outro dia conseguiu formar umas palavrinhas sozinho e ficou todo feliz me mostrando kkk. Pra mim já está valendo muito a pena.</p><div class="autor"><img class="av" src="img/depo-lays.webp" width="46" height="46" loading="lazy" alt="Foto de Lays"><div class="nm">Lays<small>Mãe do João Felipe, 6 anos</small><div class="est">★★★★★</div></div></div></div>
+    <div class="depo"><p class="txt">O que eu mais gostei foi não precisar ficar procurando atividade na internet kkkkk. Já vem tudo organizadinho. Fiz o bingo com a turma e eles ficaram super animados, até os mais quietinhos participaram 😂</p><div class="autor"><img class="av" src="img/depo-vanessa.webp" width="46" height="46" loading="lazy" alt="Foto de Vanessa"><div class="nm">Vanessa<small>Professora de Educação Infantil</small><div class="est">★★★★★</div></div></div></div>
+    <div class="depo"><p class="txt">Comprei meio sem saber se ia conseguir ensinar minha filha em casa kkkk porque não sou professora né. Mas achei bem tranquilo de usar. Ela adora as atividades de pintar e completar as palavras. Agora toda vez que me vê pegando as folhas já pergunta se vamos fazer 😂</p><div class="autor"><img class="av" src="img/depo-priscilla.webp" width="46" height="46" loading="lazy" alt="Foto de Priscilla"><div class="nm">Priscilla<small>Mãe da Gabriela, 6 anos</small><div class="est">★★★★★</div></div></div></div>
+    <div class="depo"><p class="txt">Dou aula há 9 anos e sempre tive dificuldade em encontrar atividades que fossem simples, mas que realmente prendessem a atenção das crianças. Gostei muito do material porque é bem organizado e não preciso ficar horas procurando o que trabalhar. Já consegui aproveitar várias atividades com minha turma, principalmente com os alunos que ainda confundem as sílabas. Facilitou bastante minha rotina.</p><div class="autor"><img class="av" src="img/depo-renata.webp" width="46" height="46" loading="lazy" alt="Foto de Renata"><div class="nm">Renata<small>Professora há 9 anos</small><div class="est">★★★★★</div></div></div></div>
+    <div class="depo"><p class="txt">Estou usando com minha turma do primeiro ano, principalmente com os alunos que precisam de reforço. Achei as atividades bem adequadas pra essa fase, não são complicadas de aplicar. E pra quem tem uma rotina corrida como a nossa, ter tudo pronto ajuda demais.</p><div class="autor"><img class="av" src="img/depo-ana.webp" width="46" height="46" loading="lazy" alt="Foto de Ana"><div class="nm">Ana<small>Professora do 1º ano</small><div class="est">★★★★★</div></div></div></div>
+    <a class="btn btn-verde" href="#oferta" style="margin-top:6px">QUERO O MEU KIT</a>
   </section>
 
   <!-- 4.9 OFERTA -->
